@@ -27,7 +27,7 @@
         <?php echo $testo; ?> 
     </p>
 
-    <h2>Lunghezza paragrafo: <$php echo strlen($testo) ?> </h2>
+    <h2>Lunghezza paragrafo: <?php echo strlen($testo) ?> </h2>
 
 
     <h2>Testo modificato</h2>
@@ -36,7 +36,7 @@
         <?php echo $modificata; ?> 
     </p>
 
-    <h2>Lunghezza paragrafo modificato: <$php echo strlen($modificata) ?> </h2>
+    <h2>Lunghezza paragrafo modificato: <?php echo strlen($modificata) ?> </h2>
 
 
 

@@ -7,6 +7,7 @@
                 e colui che nel mal si perde,
                 si guardi dal mio potere,
                 la luce di lantern verde ";
+    $modificata = str_replace("$_GET("parola")", "***" , $testo)            
 
 ?>
 
@@ -20,7 +21,24 @@
 </head>
 <body>
 
-    <h1>Ecco il paragrafo<?php echo $_GET["testo"]; ?> </h1>
+    <h2>Testo partenza</h2>
+
+    <p>
+        <?php echo $testo; ?> 
+    </p>
+
+    <h2>Lunghezza paragrafo: <$php echo strlen($testo) ?> </h2>
+
+
+    <h2>Testo modificato</h2>
+
+    <p>
+        <?php echo $modificata; ?> 
+    </p>
+
+    <h2>Lunghezza paragrafo modificato: <$php echo strlen($modificata) ?> </h2>
+
+
 
 </body>
 </html>

@@ -7,7 +7,7 @@
                 e colui che nel mal si perde,
                 si guardi dal mio potere,
                 la luce di lantern verde ";
-    $modificata = str_replace("$_GET("parola")", "***" , $testo)            
+    $modificata = str_replace($_GET['parola'], "***" , $testo)            
 
 ?>
 

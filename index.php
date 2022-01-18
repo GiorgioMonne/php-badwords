@@ -1,6 +1,12 @@
 <?php
 
     $nome = "Giorgio";
+    $testo = "Nel cielo più splendente ,
+                nella notte più profonda ,
+                nessun malvagio sfugga alla mia ronda,
+                e colui che nel mal si perde,
+                si guardi dal mio potere,
+                la luce di lantern verde ";
 
 ?>
 
@@ -14,7 +20,7 @@
 </head>
 <body>
 
-    <h1>Ciao mi chiamo <?php echo $_GET["nome"]; ?> </h1>
+    <h1>Ecco il paragrafo<?php echo $_GET["testo"]; ?> </h1>
 
 </body>
 </html>
